@@ -9,20 +9,20 @@ function compute()
     // create variables for calculation
     var interest = principal*years*rate /100;
 
-    //set year input to actual year
+    //set year input to reference local time
     var year = new Date().getFullYear()+parseInt(years);
 
     //check principal input for zero or negative value
-    //if(principal.value <= 0){
-   //     alert("Please enter a positive number");
-   //     principal.focus();
-   //     return false;
-  //  }
-//ensure No of Years is converted to actual year
+    if(principal <= 0){
+            alert("Please enter a positive number");
+            document.getElementById("principal").focus();
+    }
 
-    //Sample provided -- inner html property for text
     //remember to display numbers in result to highlighted
+        else { 
     document.getElementById("result").innerHTML="If you deposit <mark>"+principal+"\</mark>,\<br\>at an interest rate of <mark>"+rate+"%</mark>\<br\>You will receive an amount of <mark>"+interest+"</mark>,\<br\>in the year <mark>"+year+"\<br\>"
+    }
+
 }
 //enhancement function: grab input rate and display value next to slider
 function updateRate()

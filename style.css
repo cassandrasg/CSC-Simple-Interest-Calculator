@@ -1,18 +1,14 @@
 body { background-color: black; font-family: arial; color: white; }
 h1{ color:grey; font-family: verdana; }
-p{ background-color: yellow; }
 .maindiv{
     background-color: white;
     color: black;
-
-    width: 300px;
+    width: fit-content;
     padding: 20px;
     border-radius: 25px;
+ 
 
-    margin: auto;
 }
-
-/* add a tag to highlight result numbers */
-
-
-
+.div{
+    margin-left: 10%;
+}
