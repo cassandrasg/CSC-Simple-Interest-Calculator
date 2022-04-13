@@ -1,14 +1,17 @@
 body { background-color: black; font-family: arial; color: white; }
 h1{ color:grey; font-family: verdana; }
+
+/* maindiv for white box containing app, centered on page, width set to fit as the instructed 300px made the header run into two lines */
 .maindiv{
     background-color: white;
     color: black;
     width: fit-content;
     padding: 20px;
     border-radius: 25px;
- 
-
+    margin: auto;
 }
+
+/* div for text to be indented like final image */
 .div{
     margin-left: 10%;
 }
