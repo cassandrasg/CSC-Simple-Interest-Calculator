@@ -13,5 +13,12 @@ h1{ color:grey; font-family: verdana; }
 
 /* div for text to be indented like final image */
 .div{
-    margin-left: 10%;
+    display: inline-block;
+	margin-left: 15%;
+	width: 150px;
+	line-height:2;
+}
+/*div for results to be indented like instructed image*/
+.res{
+	margin-left: 15%;
 }
